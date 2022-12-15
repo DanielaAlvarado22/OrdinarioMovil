@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondo"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_marginTop="50px"
+            android:textSize="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Iniciar sesión"
+            android:textColor="@color/black"
+            android:fontFamily="@font/coolveticarg"
+            />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:minHeight="50dp"
+            android:ems="10"
+            android:hint="Correo"
+            android:inputType="textEmailAddress"
+            />
+        <EditText
+            android:minHeight="50dp"
+            android:id="@+id/passwordEditText"
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:hint="Contraseña"
+            android:ems="10"
+            android:inputType="textPassword"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Iniciar sesión"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/white"
+                />
+            <Button
+                android:id="@+id/btnRegistrar"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registrarse"
+                android:backgroundTint="@color/azulin"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnRegresar"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/red"
+            android:text="Regresar"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+</LinearLayout>

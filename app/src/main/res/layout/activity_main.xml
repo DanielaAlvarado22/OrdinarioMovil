@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:background="@color/fondo"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_marginTop="10px"
+            android:textSize="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="BATALLA NAVAL"
+            android:textColor="@color/black"
+            android:fontFamily="@font/games"
+            />
+
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_margin="0sp"
+        android:src="@drawable/juego" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_marginTop="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Iniciar Sesión"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Iniciar juego"
+            android:backgroundTint="@color/red"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Puntuaciones"
+            android:backgroundTint="@color/azulin"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1076511725223",
+    "firebase_url": "https://ordinariomovil-default-rtdb.firebaseio.com",
+    "project_id": "ordinariomovil",
+    "storage_bucket": "ordinariomovil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076511725223:android:2d6b0d964af8039cda6d82",
+        "android_client_info": {
+          "package_name": "com.example.ordinariomovil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076511725223-do0u17p511ht5vqp8bmlikpg1k3ujdhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1CKr2yBKa1Za7r4oUCSpXHAQvkOhk7yI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076511725223-do0u17p511ht5vqp8bmlikpg1k3ujdhm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
